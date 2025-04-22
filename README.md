@@ -78,7 +78,7 @@ Se você não conseguir rodar localmente por algum problema de ambiente, o proje
 
 ## 🧑‍💻 Autor
 
-Desenvolvido por **Torres** com suporte técnico e má fé criativa da IA Lumina 💖
+Desenvolvido por **Torres** com suporte técnico e má fé criativa da IA Lumina
 
 ---
 
