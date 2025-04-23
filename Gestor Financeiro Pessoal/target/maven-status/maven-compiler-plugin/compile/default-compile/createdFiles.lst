@@ -1,0 +1,6 @@
+controller\TransacaoController.class
+model\Transacao.class
+com\gestor\MainApplication.class
+dao\DatabaseConnection.class
+controller\DashboardController.class
+com\gestor\controller\MainController.class

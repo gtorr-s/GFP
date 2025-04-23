@@ -1,0 +1,24 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import javafx.scene.control.*?>
+<?import javafx.scene.layout.*?>
+
+<VBox xmlns="http://javafx.com/javafx/11.0.2"
+      xmlns:fx="http://javafx.com/fxml"
+      fx:controller="com.gestor.controller.MainController"
+      spacing="10" alignment="CENTER">
+
+    <Label text="Nova Transação" style="-fx-font-size: 18px;"/>
+    
+    <ComboBox fx:id="tipoBox" promptText="Tipo"/>
+    <TextField fx:id="valorField" promptText="Valor"/>
+    <DatePicker fx:id="dataField"/>
+    <TextField fx:id="descricaoField" promptText="Descrição"/>
+    <ComboBox fx:id="categoriaBox" promptText="Categoria"/>
+    <TextField fx:id="nomeField" promptText="Nome"/>
+
+
+
+
+    <Button text="Salvar Transação" onAction="#salvarTransacao"/>
+</VBox>

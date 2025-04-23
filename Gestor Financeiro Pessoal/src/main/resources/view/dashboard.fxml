@@ -1,0 +1,28 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import javafx.scene.chart.PieChart?>
+<?import javafx.scene.control.*?>
+<?import javafx.scene.layout.*?>
+
+<VBox fx:controller="com.gestor.controller.MainController" xmlns="http://javafx.com/javafx/11.0.2"
+      xmlns:fx="http://javafx.com/fxml" spacing="20" alignment="TOP_CENTER">
+    <Label text="Gestor Financeiro Pessoal" style="-fx-font-size: 20px; -fx-font-weight: bold;" />
+    
+    <HBox spacing="20" alignment="CENTER">
+        <VBox spacing="10" alignment="CENTER">
+            <Label text="Saldo Total"/>
+            <Label fx:id="saldoTotalLabel" text="R$0.00" style="-fx-font-size: 16px;" />
+        </VBox>
+        <VBox spacing="10" alignment="CENTER">
+            <Label text="Despesas do Mês"/>
+            <Label fx:id="despesasLabel" text="R$0.00" />
+        </VBox>
+        <VBox spacing="10" alignment="CENTER">
+            <Label text="Receitas do Mês"/>
+            <Label fx:id="receitasLabel" text="R$0.00" />
+        </VBox>
+    </HBox>
+
+    <Label text="Despesas por Categoria"/>
+    <PieChart fx:id="graficoDespesas" prefHeight="300" prefWidth="400"/>
+</VBox>

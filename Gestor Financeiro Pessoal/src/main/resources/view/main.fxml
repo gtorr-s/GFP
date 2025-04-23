@@ -1,0 +1,29 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import javafx.scene.control.*?>
+<?import javafx.scene.layout.*?>
+
+<BorderPane xmlns="http://javafx.com/javafx/11.0.2"
+            xmlns:fx="http://javafx.com/fxml"
+            fx:controller="com.gestor.controller.MainController">
+
+    <top>
+        <Label text="Gestor Financeiro Pessoal" style="-fx-font-size: 22px; -fx-padding: 10; -fx-alignment: center;" BorderPane.alignment="CENTER"/>
+    </top>
+
+    <center>
+        <TabPane tabClosingPolicy="UNAVAILABLE">
+            <tabs>
+                <Tab text="Dashboard">
+                    <fx:include source="dashboard.fxml"/>
+                </Tab>
+                <Tab text="Nova Transação">
+                    <fx:include source="novaTransacao.fxml"/>
+                </Tab>
+                <Tab text="Histórico">
+                    <fx:include source="historico.fxml"/>
+                </Tab>
+            </tabs>
+        </TabPane>
+    </center>
+</BorderPane>

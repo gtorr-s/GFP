@@ -1,0 +1,21 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import javafx.scene.control.*?>
+<?import javafx.scene.layout.*?>
+
+<VBox xmlns="http://javafx.com/javafx/11.0.2"
+      xmlns:fx="http://javafx.com/fxml"
+      fx:controller="com.gestor.controller.MainController"
+      spacing="10" alignment="CENTER">
+
+    <Label text="Histórico de Transações" style="-fx-font-size: 18px;"/>
+
+    <TableView fx:id="tabelaTransacoes" prefWidth="600">
+        <columns>
+            <TableColumn fx:id="colData" text="Data" prefWidth="100"/>
+            <TableColumn fx:id="colTipo" text="Tipo" prefWidth="100"/>
+            <TableColumn fx:id="colCategoria" text="Categoria" prefWidth="200"/>
+            <TableColumn fx:id="colValor" text="Valor" prefWidth="100"/>
+        </columns>
+    </TableView>
+</VBox>
