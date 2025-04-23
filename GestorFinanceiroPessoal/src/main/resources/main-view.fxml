@@ -1,9 +1,0 @@
-<?xml version="1.0" encoding="UTF-8"?>
-<?import javafx.scene.control.*?>
-<?import javafx.scene.layout.*?>
-<AnchorPane xmlns:fx="http://javafx.com/fxml" fx:controller="com.gestor.MainController">
-    <children>
-        <TextField fx:id="nomeField" layoutX="50" layoutY="50" promptText="Digite seu nome" />
-        <Button layoutX="50" layoutY="100" text="Salvar" onAction="#salvar" />
-    </children>
-</AnchorPane>
